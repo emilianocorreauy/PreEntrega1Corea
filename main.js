@@ -7,7 +7,7 @@ const yerbaSuave = 159
 const yerbaYuyos = 300
 
 let cantidad; 
-let marcaAlimento;
+let marcaYerba;
 let resultado;
 
 //operacion multiplicar
@@ -24,9 +24,9 @@ while (cantidad != 0){
         break;
     }
 
-    marcaAlimento = prompt("Ingrese la marca de alimento que desee:\n\ -Si quiere yerba marca Sara ingrese = Sara \n\ -Si quiere yerba marca Canarias ingrese = Canarias \n\ -Si quiere yerba marca El Moncayo ingrese = El Moncayo");
+    marcaYerba = prompt("Ingrese la marca de alimento que desee:\n\ -Si quiere yerba marca Sara ingrese = Sara \n\ -Si quiere yerba marca Canarias ingrese = Canarias \n\ -Si quiere yerba marca El Moncayo ingrese = El Moncayo");
      
-    switch (marcaAlimento){
+    switch (marcaYerba){
         case "Sara":
            resultado = multiplicar(yerba, cantidad);
            alert("Debe abonar $ "+ resultado + " por su compra de yerba Sara");
